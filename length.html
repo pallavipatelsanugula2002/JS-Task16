@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Calculating length using for in
+function len(a){
+    var count=0
+    
+    for(i in a){
+        count++
+    }
+    console.log(count)
+}
+len(["a","pal","cc","san","rrr"])
+
+
+//Calculating length using for of
+
+function len(a){
+    var count1=0
+    
+    for(i of a){
+        count1++
+    }
+    console.log(count1)
+}
+len(["a","pal","cc","san","rrr"])
+    </script>
+</body>
+</html>
